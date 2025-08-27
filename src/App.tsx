@@ -183,8 +183,7 @@ function Center({ children }: { children: React.ReactNode }) {
   );
 }
 
-const css = \`
-.card {
+const css = \`.card {
   width: min(720px, 92vw);
   background: white;
   border-radius: 16px;
@@ -224,5 +223,4 @@ button.primary {
   font-weight: 700;
   cursor: pointer;
 }
-button.primary:hover { filter: brightness(0.95); }
-\`;
+button.primary:hover { filter: brightness(0.95); }\`;
